@@ -1,0 +1,19 @@
+# Proyecto AspectJ - Patrón Observer (Simulación sin AOP)
+
+Este proyecto implementa una ventana con tres botones (Rojo, Verde, Azul). Al hacer clic en cualquiera de ellos:
+
+- Se cambia el color de fondo de la ventana.
+- Se notifica a un observador que muestra el cambio por consola.
+
+## Clases principales
+
+- `VentanaPrincipal`: interfaz gráfica con botones.
+- `SujetoColor`: clase observada, responsable de gestionar el color y notificar.
+- `ObservadorColor`: interfaz para observadores.
+- `ObservadorConsola`: observador que imprime el color en consola.
+
+## Requisitos adicionales
+
+- Separación de responsabilidades respetando el patrón Observer.
+- Código implementado en Java, estructurado y funcional.
+
